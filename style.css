@@ -1,0 +1,116 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: hover;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#home {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about, #projects, #contact {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.project {
+    width: 30%;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+#contact{
+    background-color: #3a3b63;
+    text-align: center;
+}
+
+#contact a{
+    color: rgb(224, 210, 210);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact:hover{
+    background-color: #2980b9;
+    text-decoration: underline;
+    color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
